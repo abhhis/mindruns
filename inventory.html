@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+    <!-- Global stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/core.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/components.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/colors.css" rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+    <!-- Core JS files -->
+    <script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
+    <script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
+    <!-- /core JS files -->
+    <!-- Theme JS files -->
+    <script type="text/javascript" src="assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/ui/prism.min.js"></script>
+    <script type="text/javascript" src="assets/js/core/app.js"></script>
+    <script type="text/javascript" src="assets/js/pages/sidebar_detached_sticky_custom.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/forms/styling/switch.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/forms/selects/bootstrap_select.min.js"></script>
+    <!-- /theme JS files -->
+</head>
+
+<body class="sidebar-xs has-detached-left">
+    <!-- Main navbar -->
+    <div class="navbar navbar-default header-highlight">
+        <div class="navbar-collapse collapse" id="navbar-mobile">
+            <ul class="nav navbar-nav">
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Purchase Orders</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Integrations</a></li>
+            </ul>
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-bell2"></i>
+                            <span class="visible-xs-inline-block position-right">Users</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-content">
+                            <div class="dropdown-content-heading">
+                                Users online
+                                <ul class="icons-list">
+                                    <li><a href="#"><i class="icon-gear"></i></a></li>
+                                </ul>
+                            </div>
+                            <ul class="media-list dropdown-content-body width-300">
+                                <li class="media">
+                                    <div class="media-left"><img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+                                    <div class="media-body">
+                                        <a href="#" class="media-heading text-semibold">Jordana Ansley</a>
+                                        <span class="display-block text-muted text-size-small">Lead web developer</span>
+                                    </div>
+                                    <div class="media-right media-middle"><span class="status-mark border-success"></span></div>
+                                </li>
+                                <li class="media">
+                                    <div class="media-left"><img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+                                    <div class="media-body">
+                                        <a href="#" class="media-heading text-semibold">Will Brason</a>
+                                        <span class="display-block text-muted text-size-small">Marketing manager</span>
+                                    </div>
+                                    <div class="media-right media-middle"><span class="status-mark border-danger"></span></div>
+                                </li>
+                                <li class="media">
+                                    <div class="media-left"><img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+                                    <div class="media-body">
+                                        <a href="#" class="media-heading text-semibold">Hanna Walden</a>
+                                        <span class="display-block text-muted text-size-small">Project manager</span>
+                                    </div>
+                                    <div class="media-right media-middle"><span class="status-mark border-success"></span></div>
+                                </li>
+                                <li class="media">
+                                    <div class="media-left"><img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+                                    <div class="media-body">
+                                        <a href="#" class="media-heading text-semibold">Dori Laperriere</a>
+                                        <span class="display-block text-muted text-size-small">Business developer</span>
+                                    </div>
+                                    <div class="media-right media-middle"><span class="status-mark border-warning-300"></span></div>
+                                </li>
+                                <li class="media">
+                                    <div class="media-left"><img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+                                    <div class="media-body">
+                                        <a href="#" class="media-heading text-semibold">Vanessa Aurelius</a>
+                                        <span class="display-block text-muted text-size-small">UX expert</span>
+                                    </div>
+                                    <div class="media-right media-middle"><span class="status-mark border-grey-400"></span></div>
+                                </li>
+                            </ul>
+                            <div class="dropdown-content-footer">
+                                <a href="#" data-popup="tooltip" title="All users"><i class="icon-menu display-block"></i></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">
+                            <i class="icon-checkmark4"></i>
+                        </a>
+                    </li>
+                    <li class="dropdown dropdown-user">
+                        <a class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="assets/images/placeholder.jpg" alt="">
+                            <span>Rajesh Kumar</span>
+                            <i class="caret"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#"><i class="icon-user-plus"></i> Profile</a></li>
+                            <li><a href="#"><i class="icon-cogs"></i> Account settings</a></li>
+                            <li><a href="#"><i class="icon-coins"></i> Billing</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="icon-question7"></i> Support Center</a></li>
+                            <li><a href="#"><i class="icon-info3"></i> Key Terms</a></li>
+                            <li><a href="#"><i class="icon-medal"></i> Feedback</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="icon-switch2"></i> Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- /main navbar -->
+    <!-- Page container -->
+    <div class="page-container">
+        <!-- Page content -->
+        <div class="page-content">
+            <!-- Main content -->
+            <div class="content-wrapper">
+                <!-- Content area -->
+                <div class="content">
+                    <div class="sidebar-detached affix-top">
+                        <div class="sidebar sidebar-default">
+                            <div class="sidebar-content">
+                                <!-- Action buttons -->
+                                <div class="sidebar-category">
+                                    <div class="category-title">
+                                        <span>Products</span>
+                                        <ul class="icons-list">
+                                            <li>
+                                                <a href="#" data-action="collapse"></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="category-content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <button class="btn bg-teal-400 btn-block btn-float btn-float-lg" type="button"><i class="icon-git-branch"></i> <span>All</span></button>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <button class="btn bg-warning-400 btn-block btn-float btn-float-lg" type="button"><i class="icon-stats-bars"></i> <span>Low Stock</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /action buttons -->
+                                <!-- Sub navigation -->
+                                <div class="sidebar-category">
+                                    <div class="category-title">
+                                        <span>Variants</span>
+                                        <ul class="icons-list">
+                                            <li>
+                                                <a href="#" data-action="collapse"></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="category-content">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <button class="btn bg-teal-400 btn-block btn-float btn-float-lg" type="button"><i class="icon-git-branch"></i> <span>All</span></button>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <button class="btn bg-warning-400 btn-block btn-float btn-float-lg" type="button"><i class="icon-stats-bars"></i> <span>Low Stock</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /sub navigation -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-detached">
+                        <div class="content-detached">
+                            <div class="col-lg-10">
+                                <div class="panel panel-flat">
+                                    <div class="panel-heading">
+                                        <h2 class="panel-title text-center">Search</h2>
+                                        <a class="heading-elements-toggle"><i class="icon-menu"></i></a></div>
+                                    <div class="panel-body">
+                                        <form action="#" class="main-search">
+                                            <div class="input-group content-group">
+                                                <div class="has-feedback has-feedback-left">
+                                                    <input type="text" class="form-control input-xlg" value="" title="">
+                                                    <div class="form-control-feedback">
+                                                        <i class="icon-search4 text-muted text-size-base"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="input-group-btn">
+                                                    <button type="submit" class="btn btn-primary btn-xlg">Search</button>
+                                                </div>
+                                            </div>
+                                            <div class="row search-option-buttons">
+                                                <div class="col-sm-6">
+                                                    <ul class="list-inline list-inline-condensed no-margin-bottom">
+                                                        <li class="dropdown">
+                                                            <a href="#" class="btn btn-link btn-sm dropdown-toggle" data-toggle="dropdown">
+                                                                <i class="icon-stack2 position-left"></i> All categories <span class="caret"></span>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#"><i class="icon-question7"></i> Getting started</a></li>
+                                                                <li><a href="#"><i class="icon-accessibility"></i> Registration</a></li>
+                                                                <li><a href="#"><i class="icon-reading"></i> General info</a></li>
+                                                                <li><a href="#"><i class="icon-gear"></i> Your settings</a></li>
+                                                                <li><a href="#"><i class="icon-graduation"></i> Copyrights</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#"><i class="icon-mail-read"></i> Contacting authors</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#" class="btn btn-link btn-sm"><i class="icon-reload-alt position-left"></i> Refine your search</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-6 text-right">
+                                                    <ul class="list-inline no-margin-bottom">
+                                                        <li><a href="#" class="btn btn-link btn-sm"><i class="icon-make-group position-left"></i> Browse website</a></li>
+                                                        <li><a href="#" class="btn btn-link btn-sm"><i class="icon-menu7 position-left"></i> Advanced search</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <button type="button" class="btn btn-primary btn-block"><i class=" icon-add position-left"></i> Add Product</button>
+                                <!-- Default select -->
+                                <div class="btn-group btn-block">
+                                    <button type="button" class="btn btn-default btn-block dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class=" icon-add position-left"></i> Actions <span class="caret"></span></button>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a href="#"><i class="icon-menu7"></i> Import Inventory CSV</a></li>
+                                        <li><a href="#"><i class="icon-screen-full"></i> Export Inventory CSV</a></li>
+                                        <li><a href="#"><i class="icon-mail5"></i> Bulk Add Products Via CSV</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#"><i class="icon-gear"></i> Product Update CSV</a></li>
+                                    </ul>
+                                </div>
+                                <div class="btn-group btn-block">
+                                    <button type="button" class="btn btn-default btn-block dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class=" icon-add position-left"></i> Bulk Actions <span class="caret"></span></button>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a href="#"><i class="icon-menu7"></i> Import Inventory CSV</a></li>
+                                        <li><a href="#"><i class="icon-screen-full"></i> Export Inventory CSV</a></li>
+                                        <li><a href="#"><i class="icon-mail5"></i> Bulk Add Products Via CSV</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#"><i class="icon-gear"></i> Product Update CSV</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /main content -->
+                </div>
+                <!-- /page content -->
+            </div>
+            <script type="text/javascript" src="assets/js/pages/form_bootstrap_select.js"></script>
+            <!-- /page container -->
+        </div>
+    </div>
+</body>
+</html>
